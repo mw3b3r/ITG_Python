@@ -17,7 +17,7 @@ Základy práce s interaktivním vstupem a zpracováním dat v programu:
 ## 🛠️ Tahák pro práce s Gitem a GitHubem
 
 Pokud pracuješ s Gitem poprvé, nemusíš mít obavy. GitHub funguje v zásadě jako **verzionovaný cloudový disk**, kde máš přehled o všech změnách v kódu.
-pokud si nechceš zatím Gitem komplikovat život, klikni na soubor který chceš získat a prostě si ho stáhni k sobě. 
+Pokud si nechceš zatím Gitem komplikovat život, klikni na soubor který chceš získat a prostě si ho stáhni k sobě. 
 
 Zde je pár základních pojmů, se kterými budeme pracovat:
 
