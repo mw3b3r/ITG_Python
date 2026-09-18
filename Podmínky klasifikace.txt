@@ -1,0 +1,58 @@
+# 📊 Podmínky klasifikace: 1. čtvrtletí (Python)
+
+Celkové hodnocení za 1. čtvrtletí je postaveno na **závěrečném projektu (textová adventura / hra v Jupyter souboru)**. Během tvorby projektu prokážeš, že zvládáš základy programování v Pythonu, které jsme probrali v dosavadních blocích.
+
+---
+
+## 🎯 Hlavní cíl projektu
+Navrhnout a naprogramovat funkční textovou hru (interaktivní příběh), která se větví podle rozhodnutí uživatele, pracuje s uživatelským vstupem a obsahuje alespoň základní herní logiku (např. inventář, stavy nebo ošetření špatných vstupů).
+
+> 💡 **Doporučení na úvod:** Než napíšeš jediný řádek kódu, nakresli si na papír mapu místností a možností. Ušetříš si tím spoustu chyb v logice.
+
+---
+
+## 🤖 Pravidla pro použití AI (Artificial Intelligence)
+
+AI je skvělý nástroj, ale v tomto projektu platí jasná hranice: **AI je tvůj konzultant, ne tvůj autor.**
+
+* **🟢 Kdy AI používat můžeš:**
+  * **Tvorba pseudokódu / struktury:** Když si potřebuješ rozepsat logický postup v bodech.
+  * **Ladění chyb (Debugging):** Když ti vyskočí chybová hláška (např. `TypeError`, `NameError`) a chceš vysvětlit, proč vznikla a jak ji opravit.
+  * **Vysvětlení konceptu:** Když potřebuješ osvěžit, jak funguje cyklus, slovník nebo funkce.
+* **🔴 Kdy AI používat NESMÍŠ:**
+  * **Generování celého kódu:** Zkopírovat zadání typu *"Napiš mi textovou adventuru"* a odevzdat to jako vlastní práci.
+
+> ⚠️ **Obhajoba projektu:** Během hodiny budeš muset umět vysvětlit, jak tvůj kód funguje, co dělají jednotlivé funkce a jak jsi ošetřil/a vstupy. Pokud kód nebudeš chápat a AI ho napsala za tebe, projekt nebude uznán.
+
+---
+
+## 📋 Hodnoticí kritéria
+
+Hra bude hodnocena na základě 4 úrovní složitosti:
+
+### 1. Základní konstrukce (Známka D–C)
+* Program běží bez syntaktických chyb.
+* Využívá proměnné a správně načítá vstup od uživatele (`input()`).
+* Obsahuje alespoň základní větvení (`if / elif / else`), které mění průběh hry.
+
+### 2. Pokročilá struktura a robustnost (Známka C–B)
+* **Funkce:** Kód je rozdělený do přehledných funkcí (např. každá místnost/obrazovka je samostatná funkce).
+* **Ošetření chyb:** Program nespadne při nečekaném vstupu (např. pomocí smyčky se ptá tak dlouho, dokud uživatel nezadá platnou volbu).
+
+### 3. Práce s daty a stav hry (Známka B–A)
+* Využití **seznamu** (např. jako inventář/batoh `inventar.append()`) nebo **slovníku** (např. sledování stavu, životů).
+* Použití operátoru `in` k ověření podmínek (např. zda má hráč u sebe klíč).
+
+### 4. Kreativita a čistota kódu (Bonus pro výbornou známku)
+* Vlastní originální příběh a promyšlená návaznost místností.
+* Čitelný kód, smysluplné názvy proměnných a komentáře.
+
+---
+
+## 🎓 Stupnice známek
+
+* **1 (Výborně):** Hra je plně funkční, využívá funkce, ošetřuje nesprávné vstupy, pracuje s inventářem/stavem a kód je čistý a srozumitelný.
+* **2 (Chvalitebně):** Hra je funkční, má vícero větví a využívá funkce a podmínky, ale chybí pokročilejší prvek (např. inventář) nebo má drobné mouchy v ošetření vstupů.
+* **3 (Dobře):** Základní hra funguje (probíhá interakce, program se větví), ale kód je psaný „na jednu hromadu“ bez využití funkcí nebo obsahuje chyby při nestandardním chování.
+* **4 (Dostatečně):** Program se spustí a obsahuje alespoň základní `input` a podmínku, ale kód je neúplný nebo nefunkční v klíčových částech.
+* **5 (Nedostatečně):** Projekt nebyl odevzdán, nebo kód neobsahuje probranou látku a neplní zadání.
