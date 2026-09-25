@@ -12,6 +12,16 @@ Základy práce s interaktivním vstupem a zpracováním dat v programu:
 * **Aritmetické operace:** Využití programu jako kalkulačky, práce s čísly a proměnnými.
 * **Textové řetězce (Strings):** Manipulace s textem, spojování řetězců (konkatenace) a základní metody.
 
+### L2: Práce s textem, porovnávání a seznamy (DOPLNIT DATUM)
+Pokročilejší práce s textem, logické podmínky a první datová struktura:
+* **Metody textových řetězců:** `upper()`, `lower()`, `replace()`, `find()`, `split()` a `join()`.
+* **Indexování a výřezy (slicing):** Přístup k jednotlivým znakům přes `text[0]` a výřezy typu `text[:3]`, `text[2:]` nebo `text[3:6]`. Indexuje se od nuly.
+* **Formátování v f-stringu:** Zaokrouhlení přímo ve výpisu, např. `{cislo:.2f}`.
+* **Porovnávání:** Operátory `==`, `!=`, `>`, `<`, `>=`, `<=`, výsledek je vždy `True` nebo `False` a dá se uložit do proměnné.
+* **Logické operátory:** Spojování podmínek pomocí `and` a `or`, hledání textu pomocí `in`.
+* **Seznamy (Lists):** Vytvoření seznamu, přístup k položkám přes index (včetně `[-1]` pro poslední položku), přidávání (`append()`, `insert()`), odebírání (`remove()`), hledání (`in`), délka (`len()`) a řazení (`sorted()`).
+
+
 ---
 
 ## 🛠️ Tahák pro práce s Gitem a GitHubem
