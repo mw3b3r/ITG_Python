@@ -12,7 +12,7 @@ Základy práce s interaktivním vstupem a zpracováním dat v programu:
 * **Aritmetické operace:** Využití programu jako kalkulačky, práce s čísly a proměnnými.
 * **Textové řetězce (Strings):** Manipulace s textem, spojování řetězců (konkatenace) a základní metody.
 
-### L2: Práce s textem, porovnávání a seznamy (DOPLNIT DATUM)
+### L2: Práce s textem, porovnávání a seznamy (24.9. - 25.9.)
 Pokročilejší práce s textem, logické podmínky a první datová struktura:
 * **Metody textových řetězců:** `upper()`, `lower()`, `replace()`, `find()`, `split()` a `join()`.
 * **Indexování a výřezy (slicing):** Přístup k jednotlivým znakům přes `text[0]` a výřezy typu `text[:3]`, `text[2:]` nebo `text[3:6]`. Indexuje se od nuly.
