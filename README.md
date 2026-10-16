@@ -21,6 +21,26 @@ Pokročilejší práce s textem, logické podmínky a první datová struktura:
 * **Logické operátory:** Spojování podmínek pomocí `and` a `or`, hledání textu pomocí `in`.
 * **Seznamy (Lists):** Vytvoření seznamu, přístup k položkám přes index (včetně `[-1]` pro poslední položku), přidávání (`append()`, `insert()`), odebírání (`remove()`), hledání (`in`), délka (`len()`) a řazení (`sorted()`).
 
+### L3: Podmínky a cykly
+Program se učí rozhodovat a opakovat činnost:
+* **Podmínky:** `if`, `elif` a `else`. Větve se vyhodnocují shora dolů a provede se jen první, která platí. Kód patřící k podmínce se odsazuje o 4 mezery.
+* **Vnořené podmínky:** Podmínka uvnitř podmínky, hodí se, když se na druhou věc má smysl ptát až po splnění první (např. heslo až po správném jménu).
+* **Cyklus `for` a `range()`:** Opakování kódu pro čísla od-do. `range(1, 6)` dává 1 až 5, poslední číslo se nezahrnuje.
+* **`for` přes seznam a přes text:** Procházení položek seznamu nebo jednotlivých písmen.
+* **Počítadlo a součet v cyklu:** Proměnná založená na 0 před cyklem a přičítání v cyklu (`soucet += x`, `pocet += 1`), případně s `if` uvnitř cyklu.
+* **Výběr do nového seznamu:** Prázdný seznam `[]` a přidávání vyhovujících prvků přes `append()`.
+* **Zbytek po dělení `%`:** Například test na sudé číslo `c % 2 == 0`.
+
+### L4: Cyklus while a funkce
+Opakování s předem neznámým počtem kol a vlastní znovupoužitelné funkce:
+* **Cyklus `while`:** Opakuje kód, dokud platí podmínka. Hodí se, když předem nevíme, kolik kol bude potřeba. Pozor na nekonečný cyklus, když se hodnota v podmínce nemění.
+* **`while True` a `break`:** Cyklus, který běží, dokud ho příkaz `break` neukončí (např. zadávání známek do slova „konec“).
+* **Modul `random`:** `random.randint(1, 10)` pro náhodné celé číslo (včetně obou mezí) a `random.choice(seznam)` pro náhodnou položku. Příklad: hra Hádej číslo.
+* **Omezený počet pokusů:** Počítadlo v podmínce cyklu, ověření hesla se třemi pokusy.
+* **Funkce:** Definice přes `def`, parametry a volání. Funkce se provede až po zavolání.
+* **`return`:** Funkce vrací hodnotu, kterou lze uložit do proměnné nebo vypsat. Rozdíl oproti `print()` uvnitř funkce.
+* **Více parametrů a spolupráce s cyklem:** Hodnoty se dosazují podle pořadí. Funkce kombinovaná s podmínkou, `for` cyklem a hledáním největší hodnoty.
+
 
 ---
 
@@ -34,4 +54,3 @@ Zde je pár základních pojmů, se kterými budeme pracovat:
 1. **Repozitář (Repo):** Projektová složka, která má v sobě uloženou kompletní historii změn.
 2. **Klonování / Stahování:** Způsob, jak dostat soubory z GitHubu k sobě do počítače (do lokálního prostředí).
 3. **Commit & Push:** Ukládání změn (commit) a jejich odeslání zpět do sdíleného úložiště na GitHub (push).
-
