@@ -1,1 +1,1 @@
-1. čtrvtletí
+1. čtvrtletí
